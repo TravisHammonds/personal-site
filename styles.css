@@ -1,0 +1,56 @@
+
+
+  /* -----------------------------
+  -----------CLASSES-----------
+  ----------------------------- */
+
+.home-logo{
+    color: rgb(224, 81, 105);
+    margin-right: auto;
+    font-size: x-large;
+}
+
+.overview{
+    margin: 50px;
+    color: white;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans;
+    text-align: center;
+}
+
+.headshot{
+    width: auto;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid rgb(224, 81, 105);
+}
+
+.welcome{
+    display: flex;
+}
+
+ /* -----------------------------
+  -----------ELEMENTS-----------
+  ----------------------------- */
+
+
+body{
+    background-color: rgb(27, 25, 25);
+}
+
+nav {
+    background-color: rgb(77, 251, 251);
+    display: flex;
+    width: 100%;
+    padding: 15px;
+    align-items: center; 
+}
+
+nav a {
+    padding-right: 30px;
+    color:rgb(224, 81, 105);
+}
+
+a:link, a:visited, a:hover, a:active{
+    /* get rid of underlines in links */
+    text-decoration: none;
+}
