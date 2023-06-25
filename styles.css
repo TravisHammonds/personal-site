@@ -1,56 +1,138 @@
-
-
-  /* -----------------------------
+/* -----------------------------
   -----------CLASSES-----------
   ----------------------------- */
 
-.home-logo{
-    color: rgb(224, 81, 105);
-    margin-right: auto;
-    font-size: x-large;
+.backstory{
+  padding-left: 25%;
+  padding-right: 25%;
 }
 
-.overview{
-    margin: 50px;
-    color: white;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans;
-    text-align: center;
+.contact-imgs{
+  margin: 30px;
+  align-items: center;
+  justify-content: center;
 }
 
-.headshot{
-    width: auto;
-    height: 150px;
-    border-radius: 50%;
-    border: 3px solid rgb(224, 81, 105);
+.description{
+  padding: 50px; 
+  color: white;
+  text-align: center;
+  list-style-position: inside;
 }
 
-.welcome{
-    display: flex;
+.email-img{
+  height: 50px;
+  width: 50px;
 }
 
- /* -----------------------------
+.github-img{
+  height: 50px;
+  width: 50px;
+}
+
+
+.headshot {
+  width: auto;
+  height: 400px;
+  border-radius: 50%;
+  border: 3px solid #a2cdb0;
+}
+
+.home-logo {
+  color: #ffd89c;
+  margin-right: auto;
+  font-size: x-large;
+}
+
+.linkedin-img{
+  height: 50px;
+  width: 50px;
+}
+
+.list{
+  text-align: left;
+  padding-left: 42%;
+}
+
+.logo-link{
+  height: 50px;
+  width: 50px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.salutation {
+  line-height: 60px;
+  padding-top: 50px;
+  margin-left: 100px;
+}
+
+.salutation h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 50px;
+}
+
+.welcome {
+justify-content: center;
+display: flex;
+}
+
+/* -----------------------------
+  ----------IDS/SECTIONS--------
+  ----------------------------- */
+
+#about{
+  background-color: #85A389;
+}
+
+#contact{
+  background-color: #ffd89c;
+  text-align: center;
+  padding: 15px;
+  color: white;
+}
+
+#intro {
+  background-color: #f1c27b;
+  padding: 50px;
+  color: white;
+  font-family: Arial;
+  text-align: center;
+}
+
+/* -----------------------------
   -----------ELEMENTS-----------
   ----------------------------- */
 
-
-body{
-    background-color: rgb(27, 25, 25);
+hr {
+  border: 1px solid #a2cdb0;
 }
 
 nav {
-    background-color: rgb(77, 251, 251);
-    display: flex;
-    width: 100%;
-    padding: 15px;
-    align-items: center; 
+  background-color: #a2cdb0;
+  display: flex;
+  width: 100%;
+  padding: 15px;
+  align-items: center;
 }
 
 nav a {
-    padding-right: 30px;
-    color:rgb(224, 81, 105);
+  padding-right: 30px;
+  color: #ffd89c;
 }
 
-a:link, a:visited, a:hover, a:active{
-    /* get rid of underlines in links */
-    text-decoration: none;
+a:hover{
+  color: #fff;
 }
+
+/* get rid of underlines in links */
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+}
+
+/* a:visited{
+  color:#f1c27b;
+} */

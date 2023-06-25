@@ -1,50 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
     <!-- normalize.css CDN -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" />
 
     <title>Travis Hammonds</title>
-  </head>
-  <body>
+</head>
+
+<body>
     <!-- NAVIGATION BAR -->
     <header>
-      <!-- PAGE LINKS -->
-      <nav>
-        <a href="#home" class="home-logo">TH</a>
-        <a href="#intro">Intro</a>
-        <a href="#contact">Contact</a>
-        <a href="#about">About Me</a>
-      </nav>
+        <!-- PAGE LINKS -->
+        <nav>
+            <a href="#home" class="home-logo">TH</a>
+            <a href="#intro">Intro</a>
+            <a href="#contact">Contact</a>
+            <a href="#about">About Me</a>
+        </nav>
     </header>
 
-    <main class="overview">
-      <div class="welcome">
-        <div class="photo">
-            <img
-              class="headshot"
-              src="images/hammonds-headshot.jpg"
-              alt="travis-hammonds"
-            />
-          </div>
-        <div class="salutation">
-          <h1>
-            Nice to Meet You! <br />
-            I'm Travis
-          </h1>
-        </div>
-        <div id="intro">
-          <p>A full-stack web developer from Lancaster, Pennsylvania</p>
-        </div>
-      </div>
-      <div id="about"></div>
+    <main>
+        <section id="intro">
+            <div class="welcome">
+                <div class="photo">
+                    <img class="headshot" src="images/headshot-circular" alt="travis-hammonds" />
+                </div>
+                <div class="salutation">
+                    <h1>
+                        Nice to Meet You! <br>
+                        I'm Travis
+                    </h1>
+                    <hr>
+                    <h3>A full-stack web developer from Lancaster, Pennsylvania</h3>
+                    <hr>
+                </div>
+            </div>
+        </section>
+        <section id="about">
+            <div class="description">
+                <h2>A Little About Me</h2>
+                <p class="backstory">
+                    From a small apartment in Lancaster, PA in 2020, my
+                    journey into software development began on the dream
+                    of creating a great new startup. A few years and many
+                    lessons later, and I am still here today.<br>
+                    My passion for software development sets its roots in
+                </p>
+                <ul class="list">
+                    <li>Strong Problem Solving Skills</li>
+                    <li>Pride in Creating New Things</li>
+                    <li>Analytical Thinking</li>
+                    <li>An Industry of Lifelong Learning</li>
+                </ul>
+                <p class="backstory">
+                    If you want to learn a little bit more about me,
+                    here are my top 3 hobbies.
+                </p>
+                <ol class="list">
+                    <li>Dungeons and Dragons</li>
+                    <li>Studying Chess</li>
+                    <li>Playing Golf</li>
+                </ol>
+            </div>
+        </section>
+        <section id="contact">
+            <div>
+                <h3>Reach Out to Me!</h3>
+                <div class="contact-imgs">
+                    <a href="https://github.com/TravisHammonds">
+                        <img class="github-img logo-link" src="images/github-mark.svg" alt="github-link">
+                    </a>
+                    <a href="https://linkedin.com/in/travis-hammonds-832056278">
+                        <img class="linkedin-img logo-link" src="images/linkedin-logo.png" alt="linkedin-link">
+                    </a>
+                    <a href="mailto:travishammonds2@gmail.com">
+                        <img src="images/email-image.png" class="email-img logo-link" alt="email">
+                    </a>
+                </div>
+            </div>
+        </section>
     </main>
-  </body>
+</body>
+
 </html>
