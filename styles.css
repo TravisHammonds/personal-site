@@ -50,6 +50,7 @@
 }
 
 .list{
+  /* Center up with <p> content */
   text-align: left;
   padding-left: 42%;
 }
